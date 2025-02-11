@@ -21,7 +21,7 @@ export function Welcome() {
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">Transform Your Business with [Your Company Name]</h1>
+          <h1 className="text-5xl font-bold mb-4">Transform Your Business with SlateArrow</h1>
           <p className="text-xl mb-8">
             Innovative IT staffing solutions tailored for your success.
           </p>
@@ -37,7 +37,7 @@ export function Welcome() {
       {/* Banner Section */}
       <section className="bg-blue-100 py-10">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Welcome to [Your Company Name]</h2>
+          <h2 className="text-3xl font-bold mb-4">Welcome to SlateArrow</h2>
           <p className="text-lg">
             We are a leading IT staffing company providing top-notch solutions to meet your business needs.
           </p>
@@ -112,7 +112,7 @@ export function Welcome() {
             <div className="w-full md:w-1/2 px-4 mb-8">
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="italic">
-                  "The team at [Your Company Name] exceeded our expectations with their professionalism and expertise."
+                  "The team at SlateArrow exceeded our expectations with their professionalism and expertise."
                 </p>
                 <p className="mt-4 font-semibold">- Client Name</p>
               </div>
