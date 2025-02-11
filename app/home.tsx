@@ -2,19 +2,19 @@ import React from "react";
 
 export function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-20">
+      <section className="bg-gray-900 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">Welcome to [Your Company Name]</h1>
-          <p className="text-lg mb-8">
-            Leading the way in IT staffing solutions.
+          <h1 className="text-5xl font-bold mb-4">Transform Your Business with [Your Company Name]</h1>
+          <p className="text-xl mb-8">
+            Innovative IT staffing solutions tailored for your success.
           </p>
           <a
             href="#contact"
-            className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold"
+            className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold"
           >
-            Contact Us
+            Get Started
           </a>
         </div>
       </section>
@@ -22,29 +22,29 @@ export function Home() {
       {/* Services Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Our Expertise</h2>
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-4">IT Staffing</h3>
+              <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-4">IT Staffing</h3>
                 <p>
-                  We provide top-notch IT professionals to meet your business needs.
+                  Providing top-tier IT professionals to drive your business forward.
                 </p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-4">Consulting</h3>
+              <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-4">Consulting</h3>
                 <p>
-                  Expert consulting services to help you navigate the tech landscape.
+                  Expert guidance to navigate the complexities of the tech landscape.
                 </p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-4">Project Management</h3>
+              <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-4">Project Management</h3>
                 <p>
-                  Efficient project management to ensure your projects are delivered on time.
+                  Ensuring timely and efficient delivery of your critical projects.
                 </p>
               </div>
             </div>
@@ -55,12 +55,12 @@ export function Home() {
       {/* Testimonials Section */}
       <section className="bg-gray-200 py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Testimonials</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-8">
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="italic">
-                  "The team at [Your Company Name] provided us with exceptional service and top-tier IT professionals."
+                  "The team at [Your Company Name] exceeded our expectations with their professionalism and expertise."
                 </p>
                 <p className="mt-4 font-semibold">- Client Name</p>
               </div>
@@ -68,7 +68,7 @@ export function Home() {
             <div className="w-full md:w-1/2 px-4 mb-8">
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="italic">
-                  "Their expertise in IT staffing helped us fill critical roles quickly and efficiently."
+                  "Their IT staffing solutions helped us achieve our business goals efficiently."
                 </p>
                 <p className="mt-4 font-semibold">- Client Name</p>
               </div>
@@ -80,7 +80,7 @@ export function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Contact Us</h2>
           <form className="max-w-lg mx-auto">
             <div className="mb-4">
               <label className="block text-gray-700 mb-2" htmlFor="name">
@@ -117,7 +117,7 @@ export function Home() {
             </div>
             <button
               type="submit"
-              className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold"
+              className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold"
             >
               Send Message
             </button>
