@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.4",
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@testing-library/react": "^16.1.0",
+    "blake3-wasm": "^2.1.5",
     "cra-template": "1.2.0",
+    "esbuild": "^0.17.19",
+    "miniflare": "^3.20250129.0",
+    "path-to-regexp": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "^5.0.1",
+    "unenv": "^2.0.0-rc.1",
     "web-vitals": "^4.2.4",
-    "@cloudflare/workers-types": "^4.20250129.0",
-    "wrangler": "^3.107.2"
+    "wrangler": "^3.107.3"
   },
   "scripts": {
     "start": "react-scripts start",
