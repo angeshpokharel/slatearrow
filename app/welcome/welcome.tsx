@@ -1,4 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Services } from "../services";
+import { Industries } from "../industries";
+import { Insights } from "../insights";
+import { About } from "../about";
+import { Careers } from "../careers";
+import { Contact } from "../contact";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export function Welcome() {
   return (
@@ -6,14 +14,14 @@ export function Welcome() {
       {/* Navbar */}
       <nav className="bg-gray-900 text-white py-4">
         <div className="container mx-auto flex justify-between items-center px-4">
-          <div className="text-2xl font-bold">[Your Company Logo]</div>
+          <div className="text-2xl font-bold">[SlateArrow Logo]</div>
           <ul className="flex space-x-6">
-            <li><a href="#services" className="hover:text-blue-500">Services</a></li>
-            <li><a href="#industries" className="hover:text-blue-500">Industries</a></li>
-            <li><a href="#insights" className="hover:text-blue-500">Insights</a></li>
-            <li><a href="#about" className="hover:text-blue-500">About</a></li>
-            <li><a href="#careers" className="hover:text-blue-500">Careers</a></li>
-            <li><a href="#contact" className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded-full">Contact Us</a></li>
+            <li><Link to="/services" className="hover:text-blue-500">Services</Link></li>
+            <li><Link to="/industries" className="hover:text-blue-500">Industries</Link></li>
+            <li><Link to="/insights" className="hover:text-blue-500">Insights</Link></li>
+            <li><Link to="/about" className="hover:text-blue-500">About</Link></li>
+            <li><Link to="/careers" className="hover:text-blue-500">Careers</Link></li>
+            <li><Link to="/contact" className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded-full">Contact Us</Link></li>
           </ul>
         </div>
       </nav>
@@ -25,12 +33,12 @@ export function Welcome() {
           <p className="text-xl mb-8">
             Innovative IT staffing solutions tailored for your success.
           </p>
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </section>
 
