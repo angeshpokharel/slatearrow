@@ -17,9 +17,15 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "^5.0.1",
+    "typescript": "^5.7.3",
     "unenv": "^2.0.0-rc.1",
     "web-vitals": "^4.2.4",
     "wrangler": "^3.107.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^20.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
