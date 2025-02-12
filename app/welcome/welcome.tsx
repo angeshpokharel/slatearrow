@@ -7,14 +7,15 @@ import { About } from "../about";
 import { Careers } from "../careers";
 import { Contact } from "../contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import slateArrowLogo from './slateArrow_white.png';
 
 export function Welcome() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar */}
       <nav className="bg-gray-900 text-white py-4">
-        <div className="container mx-auto flex justify-between items-center px-4">
-          <div className="text-2xl font-bold">[SlateArrow Logo]</div>
+        <div className="container mx-auto flex justify-between items-center px-2">
+          <img src={slateArrowLogo} alt="SlateArrow Logo" className="h-16" />
           <ul className="flex space-x-6">
             <li><Link to="/services" className="hover:text-blue-500">Services</Link></li>
             <li><Link to="/industries" className="hover:text-blue-500">Industries</Link></li>
